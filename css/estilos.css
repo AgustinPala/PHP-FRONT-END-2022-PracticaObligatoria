@@ -1,0 +1,24 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+img {
+    max-width: 246px;
+    max-height: 148px;
+}
+
+
+form {
+    text-align: left;
+
+    max-width: 950px;
+}
+
+.wrapper {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto;
+    justify-items: center;
+    padding-bottom: 20px;
+}
